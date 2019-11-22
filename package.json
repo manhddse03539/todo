@@ -1,0 +1,27 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "to do list application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhddse03539/todo.git"
+  },
+  "author": "manhdang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manhddse03539/todo/issues"
+  },
+  "homepage": "https://github.com/manhddse03539/todo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "multer": "^1.4.2",
+    "pg": "^7.14.0"
+  }
+}
