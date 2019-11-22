@@ -8,6 +8,9 @@ app.set("view engine", "ejs");
 //static file
 app.use(express.static("./public"));
 
+//fire controller
+todoController(app);
+
 //listen to port
 app.listen(3002);
 console.log("Server is running on port 3002");
